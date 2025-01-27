@@ -1,0 +1,13 @@
+<!-- stu1.html -->
+{% extends 'fees/base.html' %}
+
+{% block title %}
+    <h1 class="bg-slate-600">Himu</h1>
+    <h1>Dilsan</h1>
+{% endblock %}
+
+{% block base %}
+    <h2>Student 1 Page</h2>
+    <p>Details for Student 1 here</p>
+    {{ block.super }}  <!-- This will include the content from the base block in the base.html -->
+{% endblock %}

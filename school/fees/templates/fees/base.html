@@ -1,0 +1,34 @@
+<!-- base.html -->
+<!DOCTYPE html>
+{% load static %}
+{% load tailwind_tags %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% block title %}Web Page{% endblock %}</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% tailwind_css %}
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="{% url 'home' %}">Home page</a></li>
+            <li><a href="{% url 'fees' %}">Fees page</a></li> 
+        </ul>
+    </header>
+
+    <main>
+        {% block base %}
+            <!-- Default content if no block is overridden -->
+            <h1>Welcome to the fees page</h1>
+        {% endblock %}
+    </main>
+    
+    <footer>
+        <p>Footer content here</p>
+    </footer>
+    <script src="" async defer></script>
+</body>
+</html>
