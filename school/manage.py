@@ -3,9 +3,12 @@
 import os
 import sys
 <<<<<<< HEAD
+<<<<<<< HEAD
 #added comment
 =======
 >>>>>>> 7898e36 (Added some comments to manage.py)
+=======
+>>>>>>> 34c9b207195c6143ffa3c4b7434437386c73f354
 
 def main():
     """Run administrative tasks."""
@@ -23,6 +26,8 @@ def main():
 # Main fuction 
 if __name__ == '__main__':
     main()
+
+# Changed by viveksaradva
 
 def main_himanshu():
     """Run administrative tasks."""
