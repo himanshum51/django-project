@@ -46,3 +46,13 @@ class queue_himanshu:
 
 
  # type: ignore
+
+ class equeue_himanshu:
+    def __init__(self):
+        self.value=[]
+    
+    def enqueue(self,value):
+        print("you push :",value)
+        self.value.append(value)
+        
+    
