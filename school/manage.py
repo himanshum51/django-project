@@ -2,7 +2,10 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+<<<<<<< HEAD
 #added comment
+=======
+>>>>>>> 7898e36 (Added some comments to manage.py)
 
 def main():
     """Run administrative tasks."""
@@ -17,10 +20,9 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-
+# Main fuction 
 if __name__ == '__main__':
     main()
-
 
 def main_himanshu():
     """Run administrative tasks."""
@@ -34,3 +36,4 @@ def main_himanshu():
             "forget to activate a virtual environment?"
         ) from exc
     execute_from_command_line(sys.argv)
+# Changed by viveksaradva
