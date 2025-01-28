@@ -10,3 +10,6 @@ def ans2(request):
 
 def ans3(request):
     return render(request, 'fees/base.html')
+
+def student_payment(request):
+    return render()
