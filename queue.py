@@ -33,11 +33,8 @@ q.dequeue()
 q.printvalue()
 
 
-<<<<<<< HEAD
- # type: ignore
 
 #  Changed by vivek 
-=======
 class queue_himanshu:
     def __init__(self):
         self.value=[]
@@ -60,5 +57,3 @@ class queue_himanshu:
             print(i,end=" ")
 
 
- # type: ignore
->>>>>>> 736c918dca1e832c23355c9dabe8024d020d7e5c
