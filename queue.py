@@ -1,3 +1,4 @@
+#This program is for implementing queue.
 class queue:
     def __init__(self):
         self.value=[]
