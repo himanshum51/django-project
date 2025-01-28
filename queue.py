@@ -55,4 +55,5 @@ class queue_himanshu:
         print("you push :",value)
         self.value.append(value)
         
-    
+
+class stack :
