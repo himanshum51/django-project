@@ -27,8 +27,8 @@ class stack:
             
 q=stack()
 q.pop()
-q.push(5)
-q.push(6)
+q.push(7)
+q.push(4)
 q.pop()
 q.push(7)
 q.push(8)
