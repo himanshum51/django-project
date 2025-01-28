@@ -1,3 +1,4 @@
+#This program is for implementing queue.
 class queue:
     def __init__(self):
         self.value=[]
@@ -43,17 +44,6 @@ class queue_himanshu:
         print("you push :",value)
         self.value.append(value)
         
-    def dequeue(self):
-        if len(self.value)==0:
-            print("queue is empty")
-        else:
-            front=self.value[0]
-            print("remove",front)
-            self.value=self.value[1:]
-            
-    def printvalue(self):
-        print("queue is : ")
-        for i in self.value:
-            print(i,end=" ")
+    
 
 
