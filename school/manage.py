@@ -2,13 +2,6 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-<<<<<<< HEAD
-<<<<<<< HEAD
-#added comment
-=======
->>>>>>> 7898e36 (Added some comments to manage.py)
-=======
->>>>>>> 34c9b207195c6143ffa3c4b7434437386c73f354
 
 def main():
     """Run administrative tasks."""
